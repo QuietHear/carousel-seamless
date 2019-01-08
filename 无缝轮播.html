@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无缝轮播</title>
+    <link rel="stylesheet" href="css/seamlessCarousel.css">
+</head>
+<body>
+<div class="bigCarousel">
+    <div class="controls prv-btn">
+        <img src="img/btn_l.png">
+        <img src="img/btn_l_active.png">
+    </div>
+    <!--轮播区域-->
+    <ul class="list">
+        <li class="item">
+            <a data-n="1" href="#">
+                <img src="img/a.png"/>
+                <div class="content">
+                    <img class="advertisingJF" src="img/bigCarousel-jf.png">
+                    <img class="advertisingTJ" src="img/bigCarousel-tj.png">
+                </div>
+            </a>
+        </li>
+        <li class="item">
+            <a data-n="2" href="#">
+                <img src="img/b.png"/>
+                <div class="content">
+                    <img class="advertisingJF" src="img/bigCarousel-jf.png">
+                    <img class="advertisingTJ" src="img/bigCarousel-tj.png">
+                </div>
+            </a>
+        </li>
+        <li class="item">
+            <a data-n="3" href="#">
+                <img src="img/c.png"/>
+                <div class="content">
+                    <img class="advertisingJF" src="img/bigCarousel-jf.png">
+                    <img class="advertisingTJ" src="img/bigCarousel-tj.png">
+                </div>
+            </a>
+        </li>
+        <li class="item">
+            <a data-n="4" href="#">
+                <img src="img/d.png"/>
+                <div class="content">
+                    <img class="advertisingJF" src="img/bigCarousel-jf.png">
+                    <img class="advertisingTJ" src="img/bigCarousel-tj.png">
+                </div>
+            </a>
+        </li>
+        <li class="item">
+            <a data-n="5" href="#">
+                <img src="img/e.png"/>
+                <div class="content">
+                    <img class="advertisingJF" src="img/bigCarousel-jf.png">
+                    <img class="advertisingTJ" src="img/bigCarousel-tj.png">
+                </div>
+            </a>
+        </li>
+    </ul>
+    <div class="controls next-btn">
+        <img src="img/btn_r.png">
+        <img src="img/btn_r_active.png">
+    </div>
+    <!--提示区域-->
+    <ul class="indicator">
+        <!--<li data-place="0" class="active"></li>-->
+    </ul>
+</div>
+<script src="js/jquery1.9.min.js"></script>
+<script src="js/seamlessCarousel.js"></script>
+<script>
+    bigCarousel.start();
+</script>
+</body>
+</html>
