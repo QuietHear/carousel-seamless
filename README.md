@@ -1,5 +1,5 @@
 # 功能展示
-[点此观看](https://quiethear.github.io/carousel-seamless/无缝轮播.html "无缝轮播")(建议右键新建窗口查看)
+[点此观看](https://quiethear.github.io/carousel-seamless/index.html "无缝轮播")(建议右键新建窗口查看)
 # 说明文档
 > ### 使用步骤
 >> 1. 下载插件
